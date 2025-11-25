@@ -24,7 +24,7 @@ const Footer = () => {
 
             <p className="text-white text-base">
               <strong>{footer.telephoneLabel}</strong> :{" "}
-              <Link href="tel:46762641447">46762641447</Link>
+              <Link href="tel:46762641447">+46762641447</Link>
               <br />
               <strong>{footer.emailLabel}</strong> : Gustav@vretael.com
             </p>

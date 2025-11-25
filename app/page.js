@@ -8,6 +8,8 @@ import { HiUser } from "react-icons/hi2";
 import { FaCarAlt } from "react-icons/fa";
 import { TiLightbulb } from "react-icons/ti";
 import { FaBolt, FaIndustry, FaNetworkWired } from "react-icons/fa";
+import { PiSolarPanelFill } from "react-icons/pi";
+
 import { FiChevronRight } from "react-icons/fi";
 import Footer from "./components/Footer";
 import { useLanguage } from "./components/LanguageProvider";
@@ -88,11 +90,7 @@ export default function Home() {
           </div>
 
           <div className="flex-1 mx-auto flex items-center flex-col gap-5 text-center cursor-pointer">
-            <img
-              src="/assets/shield-Virus-icon.png"
-              alt="shield-Virus-icon"
-              className="h-10"
-            />
+            <PiSolarPanelFill className="text-[#344e41] text-[40px]" />
 
             <h3 className="pb-2.5 uppercase text-lg leading-[1.1em] font-bold whitespace-nowrap">
               {t.services.cards.safety}
@@ -158,7 +156,7 @@ export default function Home() {
           </div>
 
           <div className="relative lg:w-[36.7%] min-h-[20em] lg:min-h-auto mt-[4em] lg:mt-0 -ml-6 sm:ml-0">
-            <div className="w-[240px] sm:w-[18em] h-[240px] sm:h-[18em] p-[2em] mb-[7.493%] bg-[#f9f9f9] absolute left-0 rounded-full flex flex-col justify-center gap-2 items-center text-center">
+            <div className="w-60 sm:w-[18em] h-60 sm:h-[18em] p-[2em] mb-[7.493%] bg-[#f9f9f9] absolute left-0 rounded-full flex flex-col justify-center gap-2 items-center text-center">
               <FaBolt className="text-[#344e41] text-[2em]" />
 
               <h3 className="text-[1.2em] uppercase font-bold leading-[1.1em]">
@@ -166,7 +164,7 @@ export default function Home() {
               </h3>
             </div>
 
-            <div className="w-[100px] sm:w-[112px] h-[100px] sm:h-[112px] p-[.5em] mb-[7.493%] bg-[#f9f9f9] absolute left-[200px] sm:left-[246.4px] -top-[56px] sm:-top-[56px] rounded-full flex flex-col justify-center gap-2 items-center text-center">
+            <div className="w-[100px] sm:w-28 h-[100px] sm:h-28 p-[.5em] mb-[7.493%] bg-[#f9f9f9] absolute left-[200px] sm:left-[246.4px] -top-[56px] sm:-top-[56px] rounded-full flex flex-col justify-center gap-2 items-center text-center">
               <TiLightbulb className="text-[#344e41] text-[2em]" />
 
               <h3 className="text-[.7em] uppercase font-bold leading-[1.1em]">
@@ -186,7 +184,7 @@ export default function Home() {
               </h3>
             </div>
 
-            <div className="w-[100px] sm:w-[112px] h-[100px] sm:h-[112px] p-[.5em] bg-[#f9f9f9] absolute left-[205px] sm:left-[263.2px] top-[192px] sm:top-[212.8px] rounded-full flex flex-col justify-center gap-2 items-center text-center">
+            <div className="w-[100px] sm:w-28 h-[100px] sm:h-28 p-[.5em] bg-[#f9f9f9] absolute left-[205px] sm:left-[263.2px] top-[192px] sm:top-[212.8px] rounded-full flex flex-col justify-center gap-2 items-center text-center">
               <FaCarAlt className="text-[#344e41] text-[2em]" />
 
               <h3 className="text-[.7em] uppercase font-bold leading-[1.1em]">
