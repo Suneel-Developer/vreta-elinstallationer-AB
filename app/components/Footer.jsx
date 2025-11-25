@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <footer>
-      <div className="py-[54px] bg-[#344e41]">
+      <div className="py-[54px] bg-[#344e41]" id="contact">
         <div className="max-w-[2000px] w-[70%] mx-auto py-7 flex flex-col lg:flex-row items-center lg:items-start justify-center lg:justify-between gap-16 lg:gap-7">
           <div className="order-2 lg:order-1">
             <p className="text-white mb-[1em] text-base">

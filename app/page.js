@@ -47,7 +47,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="pt-10 pb-2.5 mt-[64px]">
+      <section className="pt-10 pb-2.5 mt-16">
         <div className="w-[73%] max-w-[2000px] mx-auto py-[5px] flex items-center flex-wrap gap-8">
           <div className="flex-1 mx-auto flex items-center flex-col gap-5 text-center cursor-pointer">
             <HiUser className="text-[#344e41] text-[40px]" />
@@ -121,7 +121,7 @@ export default function Home() {
             <p className="mb-7.5 text-lg font-normal">{t.rot.body[1]}</p>
 
             <Link
-              href="#"
+              href="#contact"
               className="border-2 border-[#344e41] bg-[#344e41] hover:bg-white text-white hover:text-[#344e41] rounded-full py-0.5 pl-5 pr-5 hover:pr-10 transition-all duration-300 inline-flex items-center text-xl font-medium leading-[1.7em] relative overflow-hidden group"
             >
               <span>{t.shared.contactCta}</span>
@@ -218,7 +218,7 @@ export default function Home() {
             </p>
 
             <Link
-              href="#"
+              href="#contact"
               className="border-2 border-[#344e41] bg-[#344e41] hover:bg-white text-white hover:text-[#344e41] rounded-full py-0.5 pl-5 pr-5 hover:pr-10 transition-all duration-300 inline-flex items-center text-xl font-medium leading-[1.7em] relative overflow-hidden group"
             >
               <span>{t.shared.contactCta}</span>
@@ -245,7 +245,7 @@ export default function Home() {
             </p>
 
             <Link
-              href="#"
+              href="#contact"
               className="border-2 border-[#344e41] bg-[#344e41] hover:bg-transparent text-white hover:text-[#344e41] rounded-full py-0.5 pl-5 pr-5 hover:pr-10 transition-all duration-300 inline-flex items-center text-xl font-medium leading-[1.7em] relative overflow-hidden group"
             >
               <span>{t.shared.contactCta}</span>

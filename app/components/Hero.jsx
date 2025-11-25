@@ -25,7 +25,7 @@ const Hero = () => {
                     </p>
 
                     <Link
-                        href="#"
+                        href="#contact"
                         className='border-2 border-[#344e41] bg-[#344e41] hover:bg-white text-white hover:text-[#344e41] rounded-full py-0.5 pl-5 pr-5 hover:pr-10 transition-all duration-300 inline-flex items-center text-xl font-medium leading-[1.7em] relative overflow-hidden group'
                     >
                         <span>{translations.hero.cta}</span>
